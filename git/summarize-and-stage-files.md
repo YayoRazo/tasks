@@ -4,8 +4,8 @@ Summarize, selectively stage, and commit files in `{{PROJECT_NAME}}`
 
 ## Inputs
 
-- `{{PROJECT_NAME}}`: Directory name under `/Users/jorgerazo/projects/` (for example: `fontawesome`). This must be a single directory name (no slashes or absolute paths).
-- `paths_to_add`: Optional. A JSON-style list/array of relative paths (files or directories) to add before committing. Paths must be relative to the project root and must not contain `..` or start with `/`. Example: `["v6.1.2/", "README.md"]`. If omitted or empty, the task runs in "staged-only" mode and will only commit files already staged.
+- `{{PROJECT_NAME}}`: dir_name
+- `paths_to_add`: Optional.
 
 ## Instructions
 
